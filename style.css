@@ -3,8 +3,8 @@
 }
 
 main {
-    margin-left: 240px;
-    margin-right: 240px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 /* banner style */
@@ -69,11 +69,11 @@ main {
 .flower-box {
     display: flex;
     justify-content: space-around;
-    gap: 24px;
-    padding-left: 240px;
+    gap: 15px;
+    /* padding-left: 240px;
     padding-right: 240px;
     margin-right: 240px;
-    margin-left: 240px;
+    margin-left: 240px; */
 
 
 }
@@ -104,4 +104,16 @@ main {
     text-decoration-line: underline;    
 }
 
-
+.feature-box {
+    margin: 120px 0px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    padding: 50px;
+}
+.feature {
+    align-items: center;
+    text-align: center;
+    
+}
