@@ -10,6 +10,47 @@ main {
     margin-right: 100px;
 }
 
+/* nav bar */
+#nav-title {
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;    
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 120px;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+#deals {
+    padding: 20px 40px;
+    border-radius: 8px;
+    background: #E55473;
+    border: 0;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
 /* banner style */
 
 .banner {
